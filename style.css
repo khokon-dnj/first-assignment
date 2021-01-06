@@ -1,70 +1,82 @@
-.orange-highlight{
-    color: orange;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.navbar li{
+    display:inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    padding: 20px 25px;
 }
 h1{
-    font-size: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgb(54, 57, 88);
 }
-.width-half{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-.width-half img{
-    width: 100%;
-}
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+span{
+    color:rgb(255, 131, 103) ;
 }
 section{
     height: 600px;
 }
-body{
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+img{
+    width: 100%;
+}
+.img2{
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
     color: white;
+    background-image: linear-gradient( 45deg, lightsalmon, tomato);
     padding: 10px 20px;
-    font-weight: bold;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
 }
-.dream-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+.triple-width{
+    width: 26%;
+   float: left;
+   margin-left: 4%;
+   padding-left: 2%;
+  
 }
-button{
-    color: white;
-    background-image: linear-gradient(lightSalmon, tomato);
+.triple-width img{
+    width: 100%;
 }
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    height: 70%;
+.projects{
+    box-shadow: 10px 20px 40px gray;
     border-radius: 5px;
     background-color: white;
-   
+    
 }
-.experiences-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-   
-}
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
-}
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
-}
-footer p{
+
+.wp{
     text-align: center;
-    font-size: 12px;
 }
+.inquiry-area{
+ background-image: url("images/Group_33094_1.png"); 
+ background-size:60%;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.in{
+    text-align: center;
+   
+}
+  
